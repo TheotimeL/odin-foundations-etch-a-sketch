@@ -29,6 +29,7 @@ button {
 
 .app-title {
   color: brown;
+  margin-top: 50px;
 }
 
 #app-grid {
