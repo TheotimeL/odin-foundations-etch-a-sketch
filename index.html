@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Etch-a-Sketch</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="root">
+      <h1 class="app-title">Etch-a-Sketch</h1>
+      <div class="horizontal-flex">
+        <button id="reset-button">Reset</button>
+        <div class="vertical-flex">
+          <label for="grid-size-input">Grid Size</label>
+          <input type="number" id="grid-size-input" placeholder="16" />
+        </div>
+      </div>
+      <div id="app-container">
+        <div id="app-grid"></div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
